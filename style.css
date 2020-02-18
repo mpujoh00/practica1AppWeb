@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+aside, article{
+    width: 50%;  
+    font-size: 14px; 
+    height: 71vh;
+}
+
+aside{
+    background-color: dodgerblue;
+    color: white;    
+}
+
+article{
+    background-color: lightgray;
+    color: black;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    font-size: 14px;
+}
+
+input{
+    font-size: 12px;
+}
+
+input[type="text"]{
+    width: 100px;
+    text-align: center;
+}
+
+input[type="date"]{
+    width: 100px;
+}
+
+input[type="number"]{
+    width: 100px;
+    text-align: center;
+}
+
+.sexo{
+    display: flex;
+}
+
+.sex{
+    width: 120px;
+}
